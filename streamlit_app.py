@@ -9,8 +9,9 @@ st.write('This is app builds a machine learning model!')
 
 with st.expander('Data'):
   st.write("**Raw Data**")
- df=pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/refs/heads/master/penguins_cleaned.csv')
- df
+  df=pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/refs/heads/master/penguins_cleaned.csv')
+  dp
+
 
 #   st.write('**X**')
 #   X_raw = df.drop('species', axis=1)
